@@ -24,18 +24,6 @@ Environment while contributing to the success of your organization!!!!
 - Python Programming
 - HDL Programming
 
-## Projects
-
-Here are some of my personal projects that demonstrate my skills and experience in applied machine learning and FPGA design/verification.
-
-### Project 1: [Project Name]
-[Insert a brief description of the project, the technologies used, and your role in the project].
-
-### Project 2: [Project Name]
-[Insert a brief description of the project, the technologies used, and your role in the project].
-
-### Project 3: [Project Name]
-[Insert a brief description of the project, the technologies used, and your role in the project].
 
 ## Contact
 
