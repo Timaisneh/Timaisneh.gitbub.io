@@ -60,8 +60,9 @@
     <nav>
       <ul>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#Capstone Project">Capstone Project</a></li>
+        <li><a href="#IOT Projects">IOT Projects</a></li>
         <li><a href="#Applied Machine Learning Projects">Applied Machine Learning Projects</a></li>
+        <li><a href="#Design/Verification Projects">Design/Verification Projects</a></li>
         <!-- Add more navigation links here -->
       </ul>
     </nav>
@@ -84,8 +85,8 @@
       <p>&copy; 2023 Your Name</p> 
     </footer>-->
     <!--<div class="container">-->
-    <section id="Capstone Project">
-       <h2 class="medium-header">Capstone Project</h2>  
+    <section id="IOT Projects">
+       <h2 class="medium-header">IOT Projects</h2>  
        <h3 class="small-header">Design and Development of IOT smart doorbell</h3> 
     </section>
 
@@ -102,6 +103,82 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra, dui euismod congue rutrum, sapien enim sollicitudin ante, sit amet finibus dui dui vel justo.</p>
       </div>
       
+    </section>
+
+    <section id="Design/Verification Projects">
+      <h2 class="medium-header">Design/Verification Projects</h2>
+      <p> </p>
+    </div>
+
+        <h3 class="small-header">FPGA Based Image Processing</h3>
+        <p>February 11th 2023</p>
+        <p>Michael Olagunju</p>
+        <p>Personal Project</p>
+
+        <p>FPGA based image processing</p>
+
+        <p>Design Flow</p>
+
+        <p><img src="Screenshot 2023-02-11 202457.png" alt="My Picture"></p>
+
+        <p>FPGA board/SImulation tool</p>
+        <p>FPGA - Intel Cyclone V</p>
+        <p>Simulation tool - Modelsim by altera</p>
+          
+
+        <p>Develop Image Processing Algorithms</p>
+        <p>In the following algorithms we will be transmitting two pixels at once for faster processing speed. Before the images can be processed they have to be converted to bmp first then to hexadecimal as verilog cannot read images directly. The BMP format is often used in image processing and computer vision applications because it provides an uncompressed representation of an image’s pixel values, making it easy to extract and manipulate the pixel values. Additionally, BMP files have a simple file structure, which makes them easy to work with.
+        </p>
+
+        <p>Brightness Addition/Subtraction</p>
+        <p>The brightness addition/subtraction algorithm works by adding or subtracting a constant value to every pixel in an image, which changes the brightness level of the entire image.
+          When a positive constant is added to every pixel, the brightness level of the image is increased. This means that the image appears brighter, with lighter colors and more contrast between the different shades of colors.
+          On the other hand, when a negative constant is subtracted from every pixel the brightness level of the image is decreased. This means that the image appears darker, with darker colors and less contrast between the different shades of colors.
+          </p>
+
+        <p>Inverting</p>
+        <p>The inverting algorithm works by reversing the brightness values of the pixels in the image. This is done by subtracting each pixel’s brightness value from the maximum possible brightness value, here it is 255.
+        </p>
+
+        <p>Thresholding(Black/White)</p>
+        <p>Thresholding is a simple technique that converts a grayscale image to a binary image, where the pixels are either black or white. This is done by setting a threshold to white and all the pixels with values below the threshold to black.
+        </p>
+
+
+        <p>Simulation Environment(ModelSim)</p>
+
+        <p><img src="5wave.png" alt="My Picture"></p>
+
+        <p><img src="4wave.png" alt="My Picture"></p>
+
+        <p>Results</p>
+        <p>Original Image - </p>
+
+        <p><img src="24bit.jpg" alt="My Picture"></p>
+
+        <p>Image after brightness reduction is performed</p>
+        <p><img src="24bitdarker.jpg" alt="My Picture"></p>
+
+        <p>Image after brightness addition is performed</p>
+        <p><img src="24bitbrighter.jpg" alt="My Picture"></p>
+
+        <p>Image after threshold operation is performed</p>
+        <p><img src="24bitb&w.jpg" alt="My Picture"></p>
+
+        <p>Image after inverting operation is performed</p>
+        <p><img src="24bit-modified.jpg" alt="My Picture"></p>
+        
+        <p>You can find the repository where all the operations are written in verilog here -</p>
+        <p><a href="https://github.com/Timaisneh/ImageProcessingVerilog">My Github</a></p>
+
+
+      </div>
+
+
+
+
+
+
     </section>
 
     
